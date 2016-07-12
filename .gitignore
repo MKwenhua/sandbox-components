@@ -1,0 +1,4 @@
+node_modules/
+public/dist/
+tests/
+public/build/

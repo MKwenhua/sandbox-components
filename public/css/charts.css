@@ -1,0 +1,35 @@
+#chart {
+    display: block;
+    margin: 15px;
+    background-color: #303030;
+}
+#chartAnchor {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+body {
+    background: steelblue;
+}
+.react-stockcharts-candlestick-wick > .up {
+    stroke: #6BA583;
+    wickStroke: #6BA583;
+}
+.react-stockcharts-candlestick-wick > .down {
+    stroke: #db0000;
+    wickStroke: : #db0000;
+}
+.react-stockcharts-candlestick-candle > .up {
+    fill: #00FF00;
+    stroke: #6BA583;
+}
+.react-stockcharts-candlestick-candle > .down {
+    fill: #DC143C;
+    stroke: #db0000;
+}
+.up {
+    stroke: #6BA583;
+}
+.down {
+    stroke: #db0000;
+}

@@ -1,0 +1,69 @@
+.li-box{
+	border-radius: 2px;
+	margin-bottom: 2px;
+	border: 1px solid white;
+	color: black;
+  background: white;
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  text-decoration: none; 
+  display: block;
+  height: 52px;
+  text-align: left;
+  position: relative;
+}
+.li-box:hover{
+	border-color:#0076ff;
+}
+.li-box:active{
+	cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+.inline-hl{
+	display: inline-block;
+	vertical-align: top;
+}
+.img-hold{
+	height:50px;
+ 
+}
+.img-hold img{
+	height:50px;
+	width:50px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+.list-column{
+	width:30%;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+}
+.drop-column{
+	width:55%;
+	float: right;
+	height:auto;
+	padding: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-row{
+	padding-left: 8px;
+	padding-right: 8px;
+
+	color:white;
+	text-align: justify; 
+	
+}
+.demo-set{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.text-hl{
+	padding:10px;
+}

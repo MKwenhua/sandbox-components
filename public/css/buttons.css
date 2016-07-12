@@ -1,0 +1,49 @@
+.pull-right {
+    float: right;
+}
+#kickStart:hover {
+    border-radius: 15px;
+}
+
+.side-title {
+    font-size: 28px;
+    letter-spacing: 1.3px;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+}
+.span-fat {
+    font-weight: 400;
+}
+.span-fat > i {
+	font-size:1.6em;
+	margin-top: -5px;
+}
+.span-thin {
+    font-weight: 100;
+    font-size: 26px;
+}
+.btnn {
+    line-height: 1.428571429;
+    border-radius: 2px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+}
+.cool-button {
+    border: 1px solid white;
+    color: white;
+    font-size: 13px;
+    padding: 10px 25px;
+    margin: 0 4px;
+    text-transform: uppercase;
+}
+.cool-button:hover {
+    background-color: white;
+    color: #777;
+}

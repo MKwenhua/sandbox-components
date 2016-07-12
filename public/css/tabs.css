@@ -1,0 +1,56 @@
+.search-input {
+    width: 80%;
+    padding: 3px 6px;
+    height: 30px;
+    display: inline-block;
+}
+.tab-sets {
+    padding: 2px 15px;
+    cursor: pointer;
+}
+.list-animations {
+    display: inline-block;
+    height: 80px;
+}
+.btn-info {
+    color: #ffffff;
+    fill: #1AAFD0;
+    border: 2px solid #1AAFD0;
+    color: white;
+    background-color: #1AAFD0;
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled false);
+}
+.btn-group>.btn:first-child {
+    margin-left: 0;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-left-radius: 4px;
+}
+.btn-group>.btn:last-child,
+.btn-group>.dropdown-toggle {
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn.active,
+.btn:active {
+    background-image: none;
+    outline: 0;
+    color: #1AAFD0;
+    background-color: white;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+}
+.btn {
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}

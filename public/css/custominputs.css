@@ -1,0 +1,16 @@
+input.blended {
+	  background: none;
+    border: none;
+    font-size: 18px;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+input.blended-bold {
+	  background: none;
+    border: none;
+    font-size: 18px;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}

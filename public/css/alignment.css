@@ -1,0 +1,13 @@
+.center-text {
+    text-align: center;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    height: 4px;
+    line-height: 0
+}
+.inline-blocks {
+    display: inline-block;
+}

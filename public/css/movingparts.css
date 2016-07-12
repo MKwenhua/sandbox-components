@@ -1,0 +1,62 @@
+.bottom-view {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    transition: all 0.25s ease-out 0s;
+}
+.bottom-view-header {
+    pointer-events: none;
+    color: #333;
+    background-color: rgba(238, 238, 238, 0.5);
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+.bottom-view-header i {
+    cursor: pointer;
+    pointer-events: all;
+    margin-top: -5px;
+    font-size: 2.7em;
+}
+.bottom-view-header:hover {
+    background-color: #0076ff;
+    color: #fff;
+}
+.bottom-view-header:hover i {} .dw_set > div.bottom-view-header {
+    height: 100%;
+}
+.up_set > div.bottom-view-header {
+    height: 5%;
+}
+.dw_set > div.bottom-view-header > i.dwn {
+    display: none;
+}
+.dw_set > div.bottom-view-header > i.upp {
+    display: block;
+}
+.up_set > div.bottom-view-header > i.dwn {
+    display: block;
+}
+.up_set > div.bottom-view-header > i.upp {
+    display: none;
+}
+.bottom-box {
+    background-color: #fff;
+    display: block;
+    height: 100%;
+    padding: 10px;
+}
+.up_set {
+    top: 0%;
+    height: 100%;
+}
+.dw_set {
+    top: 95%;
+}
+.dw_set > .draggable {
+    display: none!important;
+}
+.conatain {
+    height: auto;
+    overflow: visible;
+}

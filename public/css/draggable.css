@@ -1,0 +1,40 @@
+[draggable=true] {
+  -khtml-user-drag: element;
+}
+
+.draggable{
+	position: fixed;
+	text-align: center;
+	padding:40px;
+	width:250px;
+	border-radius: 2px;
+	border: 1px solid white; 
+}
+.resizable {
+	 resize: both;
+   overflow: auto;
+}
+
+.drag-controls{
+	display: inline-block;
+	height: 30px;
+	width:60px;
+}
+.drag-controls i{
+	font-size: 28px;
+	color: white;
+	cursor: pointer;
+}
+.drag-controls i:hover{
+  color: #3477f3;
+}
+.blue-hl{
+	border-color: #0076ff;
+	color: #0076ff;
+}
+.dw_set > div.draggable{
+	display:none;
+}
+.up_set > div.draggable{
+	display:block;
+}
